@@ -1,2 +1,2 @@
-# tumblr-dashboard-themes
-themes for tumblr's dashboard to be used in stylish or similar extensions
+# Tumblr Dashboard Themes
+A folder of themes for Tumblr's dashboard. Can be used in Stylish or any similar extension that allows you to style Tumblr's dashboard. Feel free to add any themes you want and get a pull request done for Hacktoberfest! Feel free to also submit a pull request to the theme I have already added (lifeisstrange.css), as my code is probably a huge mess from lazily patching it every time Tumblr updates their godforsaken website and breaks something.
