@@ -1,161 +1,112 @@
 body {
-background-color: #FFCC00;
-color:#000000 !important;
-font-size:12px;
-line-height:1.2;
-margin:0;
-padding:0;
-background: url('http://i.imgur.com/s3ZJ44F.jpg') repeat #FFCC00!important;
-background-repeat: no-repeat!important;
-background-size: cover !important;
-background-attachment: fixed !important;
+       background-color: #FFCC00;
+       color:#000000 !important;
+       font-size:12px;
+       line-height:1.2;
+       margin:0;
+       padding:0;
+       background: url('http://i.imgur.com/s3ZJ44F.jpg') repeat #FFCC00!important;
+       background-repeat: no-repeat!important;
+       background-size: cover !important;
+       background-attachment: fixed !important;
 }
 div.png-logo, a.logo-anchor opacity-switch, a.logo-anchor {
-	height: 0 !important;
-	width: 0 !important;
-	padding-left: 150px !important;
-    padding-right: 100px !important;
-	padding-top: 60px !important;
-	background: url(http://i.imgur.com/6LOqFON.png) no-repeat !important;
-    animation: none !important;
-    transition-property: none !important;
+        height: 0 !important;
+        width: 0 !important;
+        padding-left: 150px !important;
+        padding-right: 100px !important;
+        padding-top: 60px !important;
+        background: url(http://i.imgur.com/6LOqFON.png) no-repeat !important;
+        animation: none !important;
+        transition-property: none !important;
 }
 div.preload-container {
-    opacity: 0 !important;
+        opacity: 0 !important;
+}
+.post .post_body,div#post_body,div#i.icon_post_text,div#i.icon_post_photo,div#i.icon_post_quote,div#i.icon_post_link,
+div#i.icon_post_chat,div#i.icon_post_audio,div#i.icon_post_video,.search_query,#unread_tag_notice, 
+.post_full .post_header .post_info .post_info_link:first-child, ul, div.post_title, ol, .reblog-list-item .reblog-tumblelog-name, 
+div.hide_overflow, div#left_column.left_column.white_pane {
+        font-family: ayuthaya;
+        font-size: 13px;
+        color: #ffffff;
+}
+div.reblog-content {
+        font-family: ayuthaya; font-size: 13px;
+}
+span.quote {
+        color: #ffffff !important;
+}
+#left_column #posts .notification a.username, #left_column #posts .notification a.notification_target, 
+#left_column #posts .notification a.no_popover, .flag--accessibility-design-update .post_full .post_header .post_info 
+.post_info_link:first-child, .flag--accessibility-design-update .post_full .post_header .post_info .post_info_link:first-child {
+        color: #ffffff !important;
+}
+.flag--accessibility-design-update .post_full .post_tags .post_tag, .flag--accessibility-design-update .post_controls 
+.post_control:before, .flag--accessibility-design-update .post_full .post_footer, .post_full .post_tags .post_tag, .post_full 
+.post_footer, .post_controls .post_control:before {
+        color: #ccc !important;
+}
+.post-content-text a, .post .post_body a, .reblog-content a {
+        background-image: linear-gradient(180deg, rgba(109, 109, 109, 0.15) 50%,rgba(152, 152, 152, 0.72) 0);
+}
+.xkit-button {
+        background: rgba(2,0,0,0.3);
+}
+.selection_nipple{
+        border-color: #AB5F3B !important;
+}
+div.post_tags, a.post_info_link {
+        font-family: ayuthaya !important
+}
+.post_full.is_conversation .conversation_lines .chat_line:nth-child(even), .post .audio_player {
+        background: rgba(2,0,0,0.1) !important;
 }
 
-.post .post_body,div#post_body,div#i.icon_post_text,div#i.icon_post_photo,div#i.icon_post_quote,div#i.icon_post_link,div#i.icon_post_chat,div#i.icon_post_audio,div#i.icon_post_video,.search_query,#unread_tag_notice, .post_full .post_header .post_info .post_info_link:first-child, ul, div.post_title, ol, .reblog-list-item .reblog-tumblelog-name, div.hide_overflow, div#left_column.left_column.white_pane {font-family: ayuthaya; font-size: 13px; color: #ffffff;}
-div.reblog-content {font-family: ayuthaya; font-size: 13px;}
-span.quote {color: #ffffff !important;}
-#left_column #posts .notification a.username, #left_column #posts .notification a.notification_target, #left_column #posts .notification a.no_popover, .flag--accessibility-design-update .post_full .post_header .post_info .post_info_link:first-child, .flag--accessibility-design-update .post_full .post_header .post_info .post_info_link:first-child {color: #ffffff !important; }
-.flag--accessibility-design-update .post_full .post_tags .post_tag, .flag--accessibility-design-update .post_controls .post_control:before, .flag--accessibility-design-update .post_full .post_footer, .post_full .post_tags .post_tag, .post_full .post_footer, .post_controls .post_control:before {color: #ccc !important;}
-.post-content-text a, .post .post_body a, .reblog-content a { background-image: linear-gradient(180deg, rgba(109, 109, 109, 0.15) 50%,rgba(152, 152, 152, 0.72) 0); }
-.xkit-button { background: rgba(2,0,0,0.3) }
-.selection_nipple{border-color:#AB5F3B !important;}
-div.post_tags, a.post_info_link {font-family: ayuthaya !important}
-.post_full.is_conversation .conversation_lines .chat_line:nth-child(even), .post .audio_player { background: rgba(2,0,0,0.1) !important; }
-
-.post_controls .post_control.like.liked:before { color: #8a4036 !important; }
-
-.new_post_label i.icon_post_text, .new_post_label i.icon_post_photo, .new_post_label i.icon_post_quote, .new_post_label i.icon_post_link, .new_post_label i.icon_post_chat, .new_post_label i.icon_post_audio, .new_post_label i.icon_post_video { color: rgba(0,0,0,0.4) !important; }
-
-ol#posts li blockquote,
-
-
-
-body.mceContentBody blockquote {
-
-
-
-margin-left: 0 !important;
-
-
-
-margin-right: 0 !important;
-
-
-
-padding-left: 10px !important;
-
-
-
-border-width: 4px !important;
-
-
-
-border-color: #252525 !important;
-
-
-
+.post_controls .post_control.like.liked:before {
+        color: #8a4036 !important;
 }
 
-
-
-ol#posts li blockquote blockquote,
-
-
-
-body.mceContentBody blockquote blockquote {
-
-
-
-border-color: #242424 !important;
-
-
-
+.new_post_label i.icon_post_text, .new_post_label i.icon_post_photo, .new_post_label i.icon_post_quote, 
+.new_post_label i.icon_post_link, .new_post_label i.icon_post_chat, .new_post_label i.icon_post_audio, 
+.new_post_label i.icon_post_video {
+        color: rgba(0,0,0,0.4) !important;
 }
-
-
-
-ol#posts li blockquote blockquote blockquote,
-
-
-
-body.mceContentBody blockquote blockquote blockquote {
-
-
-
-border-color: #232323 !important;
-
-
-
+ol#posts li blockquote, body.mceContentBody blockquote {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding-left: 10px !important;
+	border-width: 4px !important;
+	border-color: #252525 !important;
 }
-
-
-
-ol#posts li blockquote blockquote blockquote blockquote,
-
-
-
-body.mceContentBody blockquote blockquote blockquote blockquote {
-
-
-
-border-color: #222222 !important;
-
-
-
+ol#posts li blockquote blockquote, body.mceContentBody blockquote blockquote {
+        border-color: #242424 !important;
 }
-
-
-
-ol#posts li blockquote blockquote blockquote blockquote blockquote,
-
-
-
-body.mceContentBody blockquote blockquote blockquote blockquote blockquote {
-
-
-
-border-color: #212121 !important;
-
-
-
+ol#posts li blockquote blockquote blockquote, body.mceContentBody blockquote blockquote blockquote {
+	border-color: #232323 !important;
 }
-
-
+ol#posts li blockquote blockquote blockquote blockquote, body.mceContentBody blockquote blockquote blockquote blockquote {
+	border-color: #222222 !important;
+}
+ol#posts li blockquote blockquote blockquote blockquote blockquote, body.mceContentBody blockquote blockquote blockquote blockquote 
+blockquote {
+        border-color: #212121 !important;
+}
 .post.post_full {
-    background: rgba(2,0,0,0.5);
+        background: rgba(2,0,0,0.5);
 }
 .post .post-source-footer {
-    background: rgba(0,0,0,0);
+        background: rgba(0,0,0,0);
 }
 #left_column #posts .notification {
-    background-color: rgba(2,0,0,0.5);
+        background-color: rgba(2,0,0,0.5);
 }
 #left_column #posts .notification a.username {
-    color: #ffffff;
+        color: #ffffff;
 }
-
-
 .l-content.clearfix, .left_column, .right_column {
-
-    background: rgba(2,0,0,0) !important;
-
-  }
-
-
-
+       background: rgba(2,0,0,0) !important;
+}
 .right_column, div#left_column.left_column.white_pane {
 
     background: rgba(2,0,0,0.5) !important;
